@@ -1,0 +1,93 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    max-width: 300px;
+    width: 100%;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-color: #007bff;
+    box-sizing: border-box;
+  }
+  
+  .log-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .forgetten-pass{
+    margin: 15px;
+    
+  }
+  .reg-btn{
+    width: 100%;
+    margin-top: 15px;
+    background-color: #389006;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  .reg-btn:hover{
+    background-color: #0056b3;
+  }
+ .log-btn:hover {
+    background-color: #2c7700;
+  }
+/* Default styles for light mode */
+a:link,
+a:visited {
+  color: rgb(16, 16, 17); /* Set your default color for links */
+}
+
+/* Styles for links on hover and active states */
+a:hover,
+a:active {
+  color: red; /* Set your color for hover and active states */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  a:link,
+  a:visited {
+    color: rgb(255, 248, 248); /* Set your color for links in dark mode */
+  }
+
+  /* Dark mode styles for links on hover and active states */
+  a:hover,
+  a:active {
+    color: orange; /* Set your color for links in dark mode on hover and active states */
+  }
+}

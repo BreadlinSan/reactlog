@@ -1,0 +1,25 @@
+/* Footer.css */
+
+.footer {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    z-index: 999;
+    width: 100rem;
+    height: 0rem;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Optional: Style the text or add additional styling as needed */
+  
